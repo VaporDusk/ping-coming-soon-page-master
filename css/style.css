@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+}
+
+h1, p {
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+.container {
+  padding: 5.25rem 1.75rem 0;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.container-logo {
+  margin-bottom: 2.25rem;
+}
+
+.logo {
+  width: 3.375rem;
+}
+
+.heading {
+  font-size: 1.375rem;
+  font-weight: 300;
+  margin-bottom: 1.125rem;
+}
+
+.heading-item {
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.container-inputs.error {
+  margin-bottom: 1.5rem;
+}
+
+.container-input-email {
+  margin-bottom: 0.625rem;
+}
+
+.container-input-email.error {
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 17.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.input-email {
+  border: 0.0625rem solid hsl(223, 100%, 88%);
+}
+
+.input-email::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+.input-email.error {
+  margin-bottom: 0.375rem;
+  border-color: hsl(354, 100%, 66%);
+}
+
+.input-email-error {
+  font-size: 0.625rem;
+  font-style: italic;
+  letter-spacing: 0.0125rem;
+  color: hsl(354, 100%, 66%);
+}
+
+.input-button {
+  display: block;
+  border: none;
+  font-weight: 700;
+  background-color: hsl(223, 87%, 63%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 0.3125rem 0.625rem 0 hsl(0, 0%, 59%);
+}
+
+.input-button:hover {
+  background-color: hsl(223, 87%, 75%);
+}
+
+.container-dashboard {
+  margin: 4.375rem auto 7.125rem;
+  max-width: 40rem;
+}
+
+.container-dashboard.error {
+  margin: 2.25rem auto 7.3125rem;
+}
+
+.dashboard {
+  width: 100%;
+}
+
+.container-links {
+  margin-bottom: 1.5rem;
+}
+
+.container-links.error {
+  margin-bottom: 1.375rem;
+}
+
+.link {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.625rem;
+  border: 0.0625rem solid hsl(225deg 32% 93%);
+  border-radius: 50%;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+
+.link-facebook {
+  background: url("../images/facebook.svg") center center/35% no-repeat;
+}
+
+.link-facebook:hover {
+  background: url("../images/facebook-hover.svg") center center/35% no-repeat, hsl(223, 87%, 63%);
+}
+
+.link-twitter {
+  background: url("../images/twitter.svg") center center/50% no-repeat;
+}
+
+.link-twitter:hover {
+  background: url("../images/twitter-hover.svg") center center/40% no-repeat, hsl(223, 87%, 63%);
+}
+
+.link-instagram {
+  background: url("../images/instagram.svg") center center/50% no-repeat;
+}
+
+.link-instagram:hover {
+  background: url("../images/instagram-hover.svg") center center/40% no-repeat, hsl(223, 87%, 63%);
+}
+
+.link-icon {
+  position: relative;
+  top: 0.4375rem;
+  left: 0;
+  width: 0.9375rem;
+  height: 1rem;
+}
+
+.copyright {
+  font-size: 0.625rem;
+  color: hsl(0, 0%, 59%);
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 5.375rem 1.75rem;
+  }
+
+  .container-logo {
+    margin-bottom: 2.75rem;
+  }
+
+  .logo {
+    width: 5.375rem;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+
+  .paragraph {
+    font-size: 1.125rem;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 2.625rem;
+  }
+
+  .container-inputs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-input-email {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  .container-input-email.error {
+    margin-bottom: 0;
+  }
+
+  .input {
+    height: 3.4375rem;
+    border-radius: 1.75rem;
+    padding: 0 1.875rem;
+    font-size: 1rem;
+  }
+
+  .input-email {
+    width: 26.25rem;
+  }
+
+  .input-email::placeholder {
+    color: hsl(223, 100%, 88%);
+  }
+
+  .input-email.error {
+    margin-bottom: 0.5625rem;
+  }
+
+  .input-email-error {
+    text-align: left;
+    margin-left: 1.75rem;
+    font-size: 0.75rem;
+  }
+
+  .input-button {
+    width: 12.5rem;
+  }
+
+  .container-dashboard {
+    margin: 5.375rem auto 4.25rem;
+  }
+
+  .container-dashboard.error {
+    margin: 3.875rem auto 4.25rem;
+  }
+
+  .container-links {
+    margin-bottom: 1.375rem;
+  }
+
+  .copyright {
+    font-size: 0.75rem;
+  }
+}
